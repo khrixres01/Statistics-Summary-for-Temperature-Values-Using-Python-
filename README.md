@@ -29,9 +29,15 @@ standard_dev = statistics.stdev(sorted_temp)
 #variance of the temperature values
 variance = statistics.variance(sorted_temp,mean_temp)
 
+#mean deviation of the temperature values
+mean_deviation = sum(abs(x - mean_temp) for x in Temp_val) / len(Temp_val)
+
+
 print(f'mean value: {mean_temp:.2f}')
 print(f'median value: {median_temp:.2f}')
 print(f'mode value: {mode_temp:.2f}')
 print(f'range value: {range_temp:.2f}')
+print(f'mean_deviation: {mean_deviation:.2f}')
+
 print(f'standard_deviation: {standard_dev:.2f}')
 print(f'variance_value: {variance:.2f}')
