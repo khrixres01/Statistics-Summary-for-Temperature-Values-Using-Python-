@@ -38,6 +38,8 @@ print(f'median value: {median_temp:.2f}')
 print(f'mode value: {mode_temp:.2f}')
 print(f'range value: {range_temp:.2f}')
 print(f'mean_deviation: {mean_deviation:.2f}')
-
 print(f'standard_deviation: {standard_dev:.2f}')
 print(f'variance_value: {variance:.2f}')
+
+
+![stat summaryy](https://github.com/khrixres01/Statistics-Summary-for-Temperature-Values-Using-Python-/assets/105367501/847694c1-a114-45db-adc2-a1d6249e3238)
